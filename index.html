@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+    <title></title>
+</head>
+<body>
+<form class="form" method="post">
+    <div class="form-header">
+        <h4>Workshop Registration</h4>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"> More Actions <img src="assets/images/dropdown.png"> </a>
+                    <ul>
+                        <li><a href="#action-1" class="menu-item">Action 1</a></li>
+                        <li><a href="#action-2" class="menu-item">Action 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="form-body">
+        <p class="comment">Register now while seats are available!</p>
+
+        <div class="inner-body">
+            <div class="col-1">
+                <div class="row">
+                    <label for="firstname" class="label">First Name <b class="required">*</b></label>
+
+                    <div class="input">
+                        <input id="firstname" type="text" name="firstname">
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="lastname" class="label">Last Name <b class="required">*</b></label>
+
+                    <div class="input">
+                        <input id="lastname" type="text" name="lastname">
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="company" class="label">Company/Institution<b class="required">*</b></label>
+
+                    <div class="input">
+                        <input id="company" type="text" name="company">
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="address" class="label">Address<b class="required">*</b></label>
+
+                    <div class="input">
+                        <textarea id="address" name="address"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="city" class="label">City</label>
+
+                    <div class="input">
+                        <input id="city" type="text" name="city">
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="state" class="label">State /Province /Region</label>
+
+                    <div class="input">
+                        <select id="state" name="state">
+                            <option>-Select-</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="country" class="label">Country</label>
+
+                    <div class="input">
+                        <select id="country" name="country">
+                            <option>-Select-</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="email" class="label">Email <b class="required">*</b></label>
+
+                    <div class="input">
+                        <input id="email" type="text" name="email">
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="phone" class="label">Phone Number <b class="required">*</b></label>
+
+                    <div class="input">
+                        <input id="phone" type="text" name="phone">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p class="comment-2">Lunch</p>
+
+                <div class="row">
+                    <label for="mealPreference" class="label">Meal Preference</label>
+
+                    <div class="input">
+                        <select id="mealPreference" name="mealPreference">
+                            <option>Vegetarian</option>
+                        </select>
+                    </div>
+                </div>
+
+                <p class="comment-3">Payment Details</p>
+
+                <div class="row padding">
+                    <label class="label">Meal Preference</label>
+
+                    <div id="checkboxes">
+                        <div><label><input type="checkbox"/>Cash</label></div>
+                        <div><label><input type="checkbox"/>Cheque</label></div>
+                        <div><label><input type="checkbox"/>Demand Draft</label></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="cheque-no" class="label">DD/Cheque No.</label>
+
+                    <div class="input">
+                        <input id="cheque-no" type="text" name="cheque-no">
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="bank" class="label">Drawn On(Bank Name)</label>
+
+                    <div class="input">
+                        <input id="bank" type="text" name="bank">
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="payable" class="label">Payable at</label>
+
+                    <div class="input">
+                        <input id="payable" type="text" name="payable">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-footer">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+
+</form>
+</body>
+</html>
